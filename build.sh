@@ -63,7 +63,7 @@ unset POUDRIERE_SNAPSHOTS
 unset ARCH_LIST
 BUILDACTION="images"
 
-# Maybe use options for nocleans etc?
+# Maybe use options for nocleans, etc?
 while test "$1" != ""; do
 	case "${1}" in
 		--no-buildworld|-c)
